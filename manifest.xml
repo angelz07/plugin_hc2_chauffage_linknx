@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<plugin>
+  <identifier>com.fibaro.developer.angelz.ChauffageLinknx</identifier>
+  <version>1.0</version>
+  <name>ChauffageLinknx</name>
+  <description>Gestion Chauffage Linknx</description>
+  <category>2</category>
+  <compatibilities>
+    <compatibility name="iPad"/>
+    <compatibility name="iPhone"/>
+    <compatibility name="Android Phone"/>
+    <compatibility name="Android Tablet"/>
+    <compatibility name="Home Center 2"/>
+    <compatibility name="Home Center Lite"/>
+  </compatibilities>
+</plugin>

@@ -1,0 +1,5 @@
+i18n_plugin_DESCRIPTION="Gestion Volets Linknx"
+i18n_plugin_NAME="VoletsLinknx"
+i18n_ip_nodejs="Ip NodeJs"
+i18n_port_nodejs="Port NodeJs"
+i18n_id_linknx="Id Linknx"

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<device type="com.fibaro.developer.angelz.ChauffageLinknx" baseType="com.fibaro.device">
+  <interfaces/>
+  <properties>
+    <property name="ip_nodejs" type="string"/>
+    <property name="port_nodejs" type="string"/>
+    <property name="id_linknx_mode" type="string"/>
+    <property name="id_linknx_demande_consigne" type="string"/>
+    <property name="id_linknx_actuel_consigne" type="string"/>
+    <property name="id_linknx_temp_local" type="string"/>
+    <property name="configured" type="bool"/>
+  </properties>
+  <actions>
+    <action name="send" argc="2"/>
+    <action name="receive_data" argc="3"/>
+    <action name="close" argc="1"/>
+  </actions>
+  <events/>
+</device>

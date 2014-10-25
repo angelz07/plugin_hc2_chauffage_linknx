@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <section caption="Configuration" name="config">
+    <description></description>
+    <element type="string" caption="IP NodeJs" name="ip_nodejs"/>
+    <element type="string" caption="Port NodeJs" name="port_nodejs"/>
+    <element type="string" caption="Id Linknx Mode" name="id_linknx_mode"/>
+    <element type="string" caption="Id Linknx Consigne" name="id_linknx_demande_consigne"/>
+    <element type="string" caption="Id Linknx Consigne visu" name="id_linknx_actuel_consigne"/>
+    <element type="string" caption="Id Linknx Température Ambiante" name="id_linknx_temp_local"/>
+  </section>
+  <section caption="Crédits" name="credit">
+    <description>
+      <![CDATA[
+      <div><strong>Version:</strong> 0.1.x beta</div>
+      <br />
+      <div><strong>Auteur:</strong> Fabrice Bernardi Copyright (C) 2014</div>
+      <br />
+      <div><strong>Notes:</strong> This program is free software: you can redistribute it and adapt it only for your personal use. The author disclaims any liability of any kind for any damages whatsoever resulting from the use of this software. All rights reserved</div>
+      <br />
+      ]]>
+    </description>
+  </section>
+</configuration>
