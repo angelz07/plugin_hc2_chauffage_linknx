@@ -14,7 +14,6 @@ require('common.device')
 
 class "UIActions"
 
-
 --! Initialize UIActionsClass.
 --!@param params
 function UIActions:__init(params)
@@ -27,7 +26,7 @@ end
 --@param event: Array containing eventtype (mouseup, mousedown, cancel) and UI control name.
 function UIActions:onUIEvent(deviceId, event)
     print('UIActions:onUIEvent')
-    
+
 	if (event.eventType == 'onReleased') then
 		self:mouseUp(event)
 	 elseif (event.eventType == 'onPressed') then

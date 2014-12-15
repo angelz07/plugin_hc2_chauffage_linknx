@@ -14,23 +14,15 @@ require('UIActions')
 --! Creates handler for ChauffageLinknx (located in ChauffageLinknx.lua file) class.
 ChauffageLinknx = ChauffageLinknx(plugin.mainDeviceId)
 
---id_plugin = ''
---function configure(deviceId, config)
---  id_plugin : deviceId
---end
 --! Array that contains functions assigned to user interface elements
 -- in view tab.
 uiBinding = {
---    ["Key_up"] = function() ChauffageLinknx:Volet_up("up") end,
---   ["Key_down"] = function() ChauffageLinknx:Volet_down() end
    ["Key_up"] = function() ChauffageLinknx:consigne_plus() end,
    ["Key_down"] = function() ChauffageLinknx:consigne_moins() end,
    ["Key_confort"] = function() ChauffageLinknx:change_mode("comfort") end,
    ["Key_eco"] = function() ChauffageLinknx:change_mode("standby") end,
    ["Key_nuit"] = function() ChauffageLinknx:change_mode("night") end,
-   ["Key_horsGel"] = function() ChauffageLinknx:change_mode("frost") end,
-   ["bp_restart"] = function() ChauffageLinknx:restartPlugin() end
-
+   ["Key_horsGel"] = function() ChauffageLinknx:change_mode("frost") end
 }
 
 uiActions = UIActions({
@@ -63,5 +55,5 @@ end
 -- plugin properties are in line with our requirements.
 --  Otherwise we can react for such a situation by changing the property value.
 function configure(deviceId, config)
-    plugin.restart()    
+    plugin.restart()
 end

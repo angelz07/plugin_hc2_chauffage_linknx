@@ -6,15 +6,15 @@
       <label name="temp_local" caption="" weight="0.4" />
     </horizontalLayout>
     <horizontalLayout weight="1">
-      <verticalLayout weight="1">	
-	      	<button name="Key_up" caption="" class="fleft com_fibaro_default_ButtonUp" weight="1"/>
-	      	<spacer weight="0.2"/>
+      <verticalLayout weight="1"> 
+          <button name="Key_up" caption="" class="fleft com_fibaro_default_ButtonUp" weight="1"/>
+          <spacer weight="0.2"/>
           <label name="temp_consigne" caption="" weight="0.5" />
           <spacer weight="0.2"/>
-	      	<button name="Key_down" caption="" class="fleft com_fibaro_default_ButtonDown" weight="1"/>	
+          <button name="Key_down" caption="" class="fleft com_fibaro_default_ButtonDown" weight="1"/> 
       </verticalLayout>
-      <verticalLayout weight="1">	
-      		<image name="icone" caption="" weight="1" source=""/>
+      <verticalLayout weight="1"> 
+          <image name="icone" caption="" weight="1" source=""/>
       </verticalLayout>
     </horizontalLayout>
     <spacer weight="0.2"/>
@@ -29,10 +29,7 @@
     <horizontalLayout weight="0.2">
       <label name="debug" caption="" weight="0.2"/>
     </horizontalLayout>
-   <horizontalLayout weight="0.2">
-      <button name="bp_restart" caption="restart" class="" weight="1" image=""/>
-      
-    </horizontalLayout>
+  
   </page>
   <main/>
 </root>
